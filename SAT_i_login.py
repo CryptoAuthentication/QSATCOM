@@ -40,8 +40,8 @@ from queue import Queue
 JSON_PATH = "login_data.json"
 
 def check_assertion(T_i):
-# Define threshold value T_delta (1 second)
-    T_delta = 5000
+# Define threshold value T_delta
+    T_delta = 30
 
     # Get the current server time (T_j_star)
     T_j_star = time.time()
