@@ -41,7 +41,7 @@ JSON_PATH = "login_data.json"
 
 def check_assertion(T_i):
 # Define threshold value T_delta
-    T_delta = 30
+    T_delta = 0.075
 
     # Get the current server time (T_j_star)
     T_j_star = time.time()
