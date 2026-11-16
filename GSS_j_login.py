@@ -34,8 +34,8 @@ mydb = mysql.connector.connect(
 mycursor = mydb.cursor()
 
 def check_assertion(T_i):
-# Define threshold value T_delta (1 second)
-    T_delta = 30
+# Define threshold value T_delta
+    T_delta = 0.075
 
     # Get the current server time (T_j_star)
     T_j_star = time.time()
